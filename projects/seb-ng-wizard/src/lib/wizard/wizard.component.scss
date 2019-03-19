@@ -10,12 +10,10 @@
   overflow-y: auto;
 
   .navigation-wrapper {
-    // margin-top: 8.5rem;
     margin-top: 9rem;
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    max-width: 107rem;
 
     .content-wrapper {
       display: flex;
@@ -53,12 +51,11 @@
         flex-direction: row;
 
         .wizard-heading {
-          flex: 0 0 44rem;
-          margin-right: 17rem;
+          flex: 0 0 100%;
         }
         .wizard--main {
           order: 0;
-          flex: 0 0 44rem;
+          flex: 0 0 calc(100% - 38rem);
           margin-right: 2rem;
         }
         .wizard--right-content {
@@ -74,7 +71,7 @@
       margin-top: 3.5rem;
       flex-direction: initial;
       .content-wrapper {
-        flex: 1 1 auto;
+        flex: 1 1 calc(100% - 19rem);
         margin-left: 17rem;
 
         .wizard-heading {
